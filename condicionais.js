@@ -1,51 +1,117 @@
-// let numero = prompt("digite um numero:");
+// // let numero = prompt("digite um numero:");
 
-// if (numero > 0) {
+// // if (numero > 0) {
 
-// console.log("positivo.")
+// // console.log("positivo.")
 
-// }else {
+// // }else {
 
-// if( numero < 0) {
+// // if( numero < 0) {
 
-// console.log("negativo.")
+// // console.log("negativo.")
 
-// }else {
+// // }else {
 
-// console.log(" e zero")
+// // console.log(" e zero")
+
+// // }
+
+// function exercicio01() {
+
+
+//     let idade = prompt("digite sua idade: ");
+
+//     if (idade >= 18) {
+
+//         alert("voce e maior de idade.");
+//     } else {
+
+//         alert("voce e menor de idade.")
+
+//     }
 
 // }
+// exercicio01();
 
+// function exercicio02() {
 
+//     let numero = prompt("digite seu numero.");
 
-// let numero = prompt("qual e sua idade");
+//     if (numero > 0) {
 
-// if(numero > 18); {
+//         alert("numero correto");
 
-//     console.log("maior de idade");
-// }else {
+//     } else {
 
-// if( numero < 18) {
+//         alert("numero incorreto");
 
-// console.log("menor de idade")
+//     }
 
 // }
+// exercicio02();
+
+// function exercicio03() {
+
+//     let nota = prompt("digite sua nota");
+
+//     if (nota >= 60) {
+
+//         alert("aprovado");
+
+//     } else {
+
+//         alert("reprovado")
+
+//     }
+
 // }
+// exercicio03();
 
-let numero = prompt("digite sua idade");
+function exercicio05() {
 
-if (numero > 18) {
+    debugger;
 
-console.log("positivo.")
-else {
+    let idade = prompt("digite sua idade: ")
 
-if( numero < 18) {
+    if (idade >= 0 && idade <= 12) {
 
-console.log("negativo.")
+        alert("voce e uma crianca")
 
-}else {
+    } else {
 
-console.log(" e zero")
+        if (idade >= 13 && idade <= 17) {
+
+            alert("voce e um adolecente");
+        }
+
+    } if (idade >= 18) {
+
+        alert("voce e maior de idade");
+
+    } else {
+
+        alert("idade invalida")
+
+    }
 
 }
+
+exercicio05();
+
+function execicio06() {
+
+let numero = prompt("insira o numero");
+
+if (numero %2 == 0) {
+
+    alert("seu numero e par")
+
+}else{
+
+alert("seu numero e impar")
+
 }
+
+}
+execicio06();
+
