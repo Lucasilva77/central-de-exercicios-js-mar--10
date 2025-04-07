@@ -69,8 +69,6 @@
 
 function exercicio05() {
 
-    debugger;
-
     let idade = prompt("digite sua idade: ")
 
     if (idade >= 0 && idade <= 12) {
@@ -96,22 +94,55 @@ function exercicio05() {
 
 }
 
-exercicio05();
+
 
 function execicio06() {
 
-let numero = prompt("insira o numero");
+    let numero = prompt("insira o numero");
 
-if (numero %2 == 0) {
+    if (numero % 2 == 0) {
 
-    alert("seu numero e par")
+        alert("seu numero e par")
 
-}else{
+    } else {
 
-alert("seu numero e impar")
+        alert("seu numero e impar")
+
+    }
 
 }
 
+function exerc07 (){
+    debugger
+let numero1 =Number (prompt ("Digite o primeiro número:"));
+
+let operacao = prompt("Digite a operação (+, -, *, /):");
+
+let numero2 = Number(prompt("Digite o segundo número:"));
+
+
+if (operacao === "+") {
+    resultado = numero1 + numero2;
+} else if (operacao === "-") {
+    resultado = numero1 - numero2;
+} else if (operacao === "*") {
+    resultado = numero1 * numero2;
+} else if (operacao === "/") {
+    resultado = numero1 / numero2;
 }
-execicio06();
+alert("O resultado é: " + resultado);
+   
+}
+ exerc07();
+function exerc08 (){
+    let valor = prompt("Digite o valor de sua compra");
+   
+    if (valor >=100 ) {
+        valor = valor * 0,10;
+        alert("Desconto aplicado!")
+    } else {
+        alert("desconto não aplicado")
+    }
+         
+}
 
