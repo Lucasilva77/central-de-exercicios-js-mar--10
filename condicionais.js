@@ -134,6 +134,7 @@ alert("O resultado é: " + resultado);
    
 }
  exerc07();
+ 
 function exerc08 (){
     let valor = prompt("Digite o valor de sua compra");
    
