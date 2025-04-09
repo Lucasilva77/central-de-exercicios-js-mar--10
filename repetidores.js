@@ -73,30 +73,47 @@
 
 //     }
 
-function nivelint1 () {
+// function nivelint1 () {
     
-    let i = 1;
+//     let i = 1;
 
-while (i <= 50) {
-    if (i % 2 === 0) {
-        console.log(i);
+// while (i <= 50) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//     }
+//     i++;
+// }
+
+// }
+
+
+// function nivelint2 (){
+
+
+//     let numero = (prompt("Digite um número para a contagem regressiva:"));
+
+//     while (numero >= 0) {
+//         console.log(numero);
+//         numero--;
+//     }
+
+// }
+
+function nivelavançado1 () {
+    
+    let numero = parseInt(prompt("Digite um número inteiro positivo:"));
+
+    if (isNaN(numero) || numero < 0) {
+        alert("Número inválido. Por favor, insira um número inteiro positivo.");
+    } else {
+        let soma = 0;
+        while (numero > 0) {
+            let digito = numero % 10; // Pega o último dígito
+            soma += digito;           // Soma o dígito
+            numero = Math.floor(numero / 10); // Remove o último dígito
+        }
+        alert("A soma dos dígitos é: " + soma);
     }
-    i++;
+    
 }
-
-}
-
-
-function nivelint2 (){
-
-
-    let numero = (prompt("Digite um número para a contagem regressiva:"));
-
-    while (numero >= 0) {
-        console.log(numero);
-        numero--;
-    }
-
-}
-
-nivelint2();
+nivelvançado1();
